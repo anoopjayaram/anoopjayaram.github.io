@@ -45,6 +45,36 @@
     display: table;
     clear: both;
   }
+
+
+  /* button */
+  .button_1{
+    border: none;
+  
+    background: #1a1717;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 20px;
+    position: fixed;
+  
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    }
+    .button_1{
+  
+        bottom: 60px;
+        right: 10px; 
+    }  
+  
+    .button_1:hover {
+        color: #404040 !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        background: none;
+        transition: all 0.3s ease 0s;
+        }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {

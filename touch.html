@@ -11,12 +11,12 @@
     <div class="container">
         <div style="text-align:center">
           <h2>Get in Touch</h2>
-          <p>Swing by for a cup of coffee, or leave us a A  message:</p>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
         </div>
         <div class="row">
           
-          <div class="column">
-            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxQ6bgHPV9nZUyfpmLyfOEz0qyWetT9wkl039GWDZL9rtIyL7S2/exec">
+         <div class="column">  <!-- action="https://script.google.com/macros/s/AKfycbxQ6bgHPV9nZUyfpmLyfOEz0qyWetT9wkl039GWDZL9rtIyL7S2/exec" -->
+            <form id="submit-form" action="">
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="name" placeholder="Your name..">
               <label for="lname">Email</label>
@@ -33,7 +33,7 @@
             </form>
           </div>
           <div class="column">
-            <img src="crossroads.png" style="width:100%">
+            <!-- <img src="crossroads.png" style="width:100%"> -->
           </div>
         </div>
       </div>
@@ -41,13 +41,13 @@
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"",
+                url:"https://script.google.com/macros/s/AKfycbxQ6bgHPV9nZUyfpmLyfOEz0qyWetT9wkl039GWDZL9rtIyL7S2/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
                     window.location.reload()
-                    //window.location.href="https://google.com"
+                    window.location.href="index.html"
                 },
                 error:function (err){
                     alert("Something Error")
@@ -56,5 +56,6 @@
             })
         })
     </script>
+     <div class="button_cont2"><a class="button_1" href="/ind.html" target="_parent" rel="nofollow noopener" >home </a></div>
 </body>
 </html>
