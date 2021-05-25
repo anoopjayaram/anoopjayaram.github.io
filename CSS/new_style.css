@@ -4,7 +4,7 @@ body {
   float: left;
   font-size: 18px;
   margin: 0;
-  padding-top: 15%;
+  padding-top: 10%;
   padding-left: 5%;
   background:url(/img/profile_cover_2.jpg) no-repeat;
  
@@ -16,13 +16,17 @@ background-size: cover;
 
 h1,h2 {
   color: rgb(245, 242, 238);
-  font-weight: 100;
+  font-weight: 200;
   
 }
 h1 { font-size: 50px }
 h2 {
   color: rgb(209, 176, 176);
   font-size: 60px;
+}
+.into{
+    border-left: 5;
+    color: coral;
 }
 
 /*Buttons*/
@@ -125,6 +129,7 @@ body {
     font-size: 1.2em;
 }
 ._14 {
+    padding-top: 32%;
     font-size: 1.4em;
     color: wheat;
 }
