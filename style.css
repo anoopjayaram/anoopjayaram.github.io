@@ -12,6 +12,7 @@
     margin-bottom: 16px;
     resize: vertical;
     color: blanchedalmond;
+    background-color: black ;
   }
   
   input[type=submit] {
@@ -23,7 +24,7 @@
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #105f10;
   }
   
   /* Style the container/contact section */
