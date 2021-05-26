@@ -1,19 +1,21 @@
 * {
     box-sizing: border-box;
+    background: hsl(0, 9%, 4%);
   }
   
   /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 3px solid rgb(141, 214, 23);
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color: blanchedalmond;
   }
   
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #45a049;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -27,7 +29,6 @@
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 10px;
   }
   
@@ -37,6 +38,7 @@
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+    color:wheat;
   }
   
   /* Clear floats after the columns */
@@ -83,3 +85,10 @@
       margin-top: 0;
     }
   }
+  h2,p{
+    color: rgb(214, 214, 231);
+  }
+  
+  /* .dropdown{
+    color: blanchedalmond;
+  } */
