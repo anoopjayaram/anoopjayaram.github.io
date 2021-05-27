@@ -54,10 +54,6 @@ body {
   border-radius: 0 0 1rem 1rem;
 }
 
-.accordion:nth-last-child(1):hover {
-  background: crimson;
-}
-
 .active,
 .accordion:hover {
   background-color: #426ef0;
