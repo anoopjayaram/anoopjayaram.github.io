@@ -1,24 +1,31 @@
 
 body {
-  font-family: 'Raleway', sans-serif;
-  float: left;
-  font-size: 18px;
-  margin: 0;
-  padding-top: 10%;
-  padding-left: 5%;
-  background:url(/img/showcaseFormat.jpg) no-repeat;
- 
-background-attachment: unset;
-background-size: cover;
+    /* font-family: 'Saira Semi Condensed', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    /* font-weight:300; */
+  
+    margin:0;
+    padding: 50px;
+    background:url(/img/showcaseFormat.jpg) no-repeat;
+    background-position: center center;
+    background-attachment:   fixed;
+    background-size: cover;
+    background-color: #464646;
 
 }
 
-c
-/* .into{
-    border-left: 5;
-    color: white;
-} */
-
+#intro{
+  color:whitesmoke;
+  font-size: 280%;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+#intro1{
+  margin-left: 20%;
+  color:rgb(201, 28, 28);
+  font-size: 280%;
+  font-family: cursive;
+}
 /*Buttons*/
 
 .button_1{
@@ -222,456 +229,128 @@ ul.social-icons {
 }
 
   
-  /* ---- luxury btns ------------ */
-  .luxury{ /* block background */
-    background-color:#161616;
-  }
-  .luxury .btn{ /* general */
-    background:transparent;
-    background-position: 1% 50%;
-    background-size: 300% 300%;
-    color:#fff;
-  }
+.container{
+  /* padding-top: 65vh; */
+  margin: 0;
+  position:  fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   
-  .luxury .btn-1{ /* inspired by https://codepen.io/dbox/pen/bdzeEw */
-    color: rgba(255,255,255,0.8);
-    border: 1px solid rgba(255,255,255,0.3);
-    background-image: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,.9), rgba(255,255,255,0), rgba(255,255,255,0));
-  }
-  .luxury .btn-1:hover{
-    border-color:transparent;
-    color:#161616;
-    background-position: 99% 50%;
-  }
+}
+.container2{
+  /* padding-top: 65vh; */
+  /* margin-top: %; */
+  position:  relative;
+  float:right;
+  width: 10%;
+
   
-  .luxury .btn-2{
-    border:1px solid rgba(255,255,255,0);
-    background-image: linear-gradient(45deg, transparent 0%, transparent 75%, rgba(255,255,255,0.8) 75%, transparent 100%);
-  }
-  .luxury .btn-2:hover{
-    border:1px solid rgba(255,255,255,0.5);
-    background-position:150% top;
-  }
-  
-  .luxury .btn-3{
-    background-image: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.5) 51%, transparent 100%);  
-  }
-  .luxury .btn-3:hover{
-    background-position:right top;
-  }
-  
-  .luxury .btn-4{
-    border:1px solid rgba(255,255,255,.5);
-    box-shadow:0 0 20px 0 rgba(255,255,255,.5) inset;
-  }
-  .luxury .btn-4:hover{
-    box-shadow:0 0 50px 2px rgba(255,255,255,.5) inset;
-  }
-  
-  /* ---- border btns ---- */
-  .border{ /* block background */
-    background-color:#0d47a1;
-  }
-  .border .btn{ /* general */
-    background:transparent;
-    color:#fff;
-  }
-  
-  .border .btn-1{
-    padding:5px 25px;
-    border:1px solid rgba(255,255,255,.3);
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:3px;
-  }
-  .border .btn-1:hover{
-    border:1px solid #fff;
-    outline:1px solid rgba(255,255,255,.3);
-  }
-  
-  .border .btn-2{
-    border-top:1px solid transparent;
-    border-bottom:1px solid transparent;
-    border-image: linear-gradient(to right, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 90%);
-    border-image-slice: 1;
-  }
-  .border .btn-2:hover{
-    border-image-slice:30;
-  }
-  
-  .border .btn-3{
-    padding:5px 25px;
-    outline:1px solid rgba(255,255,255,.3);
-    outline-offset:5px;
-  }
-  .border .btn-3:hover{
-    outline:1px solid rgba(255,255,255,1);
-    outline-offset:2px;
-  }
-  
-  .border .btn-4{
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:0;
-  }
-  .border .btn-4:hover{
-    outline:1px solid rgba(255,255,255,0);
-    outline-offset:5px;
-  }
-  
-  
-  .border_plus .btn-4:before,
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:before,
-  .border_plus .btn-4 span:after{
-    content:'';
-    display:block;
-    width: 0;
-    height: 0;
-    background:#000000;
-    position: absolute;
-    margin:auto;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:before,
-  .border_plus .btn-4 span:before{
-    height: 1px;
-  }
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:after{
-    width: 1px;
-  }
-  .border_plus .btn-4 span:before{
-    top: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:before{
-    bottom: 0;
-    right: 0;
-  }
-  .border_plus .btn-4 span:after{
-    bottom: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:after{
-    top: 0;
-    right: 0;
-  }
-  .border_plus .btn-4:hover{
-    background:#000;
-    color:#fff;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:hover span:before,
-  .border_plus .btn-4:hover:before{
-    width: 100%;
-    transition:.4s 0s;
-  }
-  .border_plus .btn-4:hover:after,
-  .border_plus .btn-4:hover span:after{
-    height: 100%;
-    transition:.4s 0s;
-  }
-  
-  
-  /* ---- luxury btns ------------ */
-  .luxury{ /* block background */
-    background-color:#161616;
-  }
-  .luxury .btn{ /* general */
-    background:transparent;
-    background-position: 1% 50%;
-    background-size: 300% 300%;
-    color:#fff;
-  }
-  
-  .luxury .btn-1{ /* inspired by https://codepen.io/dbox/pen/bdzeEw */
-    color: rgba(255,255,255,0.8);
-    border: 1px solid rgba(255,255,255,0.3);
-    background-image: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,.9), rgba(255,255,255,0), rgba(255,255,255,0));
-  }
-  .luxury .btn-1:hover{
-    border-color:transparent;
-    color:#161616;
-    background-position: 99% 50%;
-  }
-  
-  .luxury .btn-2{
-    border:1px solid rgba(255,255,255,0);
-    background-image: linear-gradient(45deg, transparent 0%, transparent 75%, rgba(255,255,255,0.8) 75%, transparent 100%);
-  }
-  .luxury .btn-2:hover{
-    border:1px solid rgba(255,255,255,0.5);
-    background-position:150% top;
-  }
-  
-  .luxury .btn-3{
-    background-image: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.5) 51%, transparent 100%);  
-  }
-  .luxury .btn-3:hover{
-    background-position:right top;
-  }
-  
-  .luxury .btn-4{
-    border:1px solid rgba(255,255,255,.5);
-    box-shadow:0 0 20px 0 rgba(255,255,255,.5) inset;
-  }
-  .luxury .btn-4:hover{
-    box-shadow:0 0 50px 2px rgba(255,255,255,.5) inset;
-  }
-  
-  /* ---- border btns ---- */
-  .border{ /* block background */
-    background-color:#0d47a1;
-  }
-  .border .btn{ /* general */
-    background:transparent;
-    color:#fff;
-  }
-  
-  .border .btn-1{
-    padding:5px 25px;
-    border:1px solid rgba(255,255,255,.3);
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:3px;
-  }
-  .border .btn-1:hover{
-    border:1px solid #fff;
-    outline:1px solid rgba(255,255,255,.3);
-  }
-  
-  .border .btn-2{
-    border-top:1px solid transparent;
-    border-bottom:1px solid transparent;
-    border-image: linear-gradient(to right, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 90%);
-    border-image-slice: 1;
-  }
-  .border .btn-2:hover{
-    border-image-slice:30;
-  }
-  
-  .border .btn-3{
-    padding:5px 25px;
-    outline:1px solid rgba(255,255,255,.3);
-    outline-offset:5px;
-  }
-  .border .btn-3:hover{
-    outline:1px solid rgba(255,255,255,1);
-    outline-offset:2px;
-  }
-  
-  .border .btn-4{
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:0;
-  }
-  .border .btn-4:hover{
-    outline:1px solid rgba(255,255,255,0);
-    outline-offset:5px;
-  }
-  
-  
-  .border_plus .btn-4:before,
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:before,
-  .border_plus .btn-4 span:after{
-    content:'';
-    display:block;
-    width: 0;
-    height: 0;
-    background:#000000;
-    position: absolute;
-    margin:auto;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:before,
-  .border_plus .btn-4 span:before{
-    height: 1px;
-  }
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:after{
-    width: 1px;
-  }
-  .border_plus .btn-4 span:before{
-    top: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:before{
-    bottom: 0;
-    right: 0;
-  }
-  .border_plus .btn-4 span:after{
-    bottom: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:after{
-    top: 0;
-    right: 0;
-  }
-  .border_plus .btn-4:hover{
-    background:#000;
-    color:#fff;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:hover span:before,
-  .border_plus .btn-4:hover:before{
-    width: 100%;
-    transition:.4s 0s;
-  }
-  .border_plus .btn-4:hover:after,
-  .border_plus .btn-4:hover span:after{
-    height: 100%;
-    transition:.4s 0s;
-  }
-  
-  
-  /* ---- luxury btns ------------ */
-  .luxury{ /* block background */
-    background-color:#161616;
-  }
-  .luxury .btn{ /* general */
-    background:transparent;
-    background-position: 1% 50%;
-    background-size: 300% 300%;
-    color:#fff;
-  }
-  
-  .luxury .btn-1{ /* inspired by https://codepen.io/dbox/pen/bdzeEw */
-    color: rgba(255,255,255,0.8);
-    border: 1px solid rgba(255,255,255,0.3);
-    background-image: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,.9), rgba(255,255,255,0), rgba(255,255,255,0));
-  }
-  .luxury .btn-1:hover{
-    border-color:transparent;
-    color:#161616;
-    background-position: 99% 50%;
-  }
-  
-  .luxury .btn-2{
-    border:1px solid rgba(255,255,255,0);
-    background-image: linear-gradient(45deg, transparent 0%, transparent 75%, rgba(255,255,255,0.8) 75%, transparent 100%);
-  }
-  .luxury .btn-2:hover{
-    border:1px solid rgba(255,255,255,0.5);
-    background-position:150% top;
-  }
-  
-  .luxury .btn-3{
-    background-image: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.5) 51%, transparent 100%);  
-  }
-  .luxury .btn-3:hover{
-    background-position:right top;
-  }
-  
-  .luxury .btn-4{
-    border:1px solid rgba(255,255,255,.5);
-    box-shadow:0 0 20px 0 rgba(255,255,255,.5) inset;
-  }
-  .luxury .btn-4:hover{
-    box-shadow:0 0 50px 2px rgba(255,255,255,.5) inset;
-  }
-  
-  /* ---- border btns ---- */
-  .border{ /* block background */
-    background-color:#0d47a1;
-  }
-  .border .btn{ /* general */
-    background:transparent;
-    color:#fff;
-  }
-  
-  .border .btn-1{
-    padding:5px 25px;
-    border:1px solid rgba(255,255,255,.3);
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:3px;
-  }
-  .border .btn-1:hover{
-    border:1px solid #fff;
-    outline:1px solid rgba(255,255,255,.3);
-  }
-  
-  .border .btn-2{
-    border-top:1px solid transparent;
-    border-bottom:1px solid transparent;
-    border-image: linear-gradient(to right, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 90%);
-    border-image-slice: 1;
-  }
-  .border .btn-2:hover{
-    border-image-slice:30;
-  }
-  
-  .border .btn-3{
-    padding:5px 25px;
-    outline:1px solid rgba(255,255,255,.3);
-    outline-offset:5px;
-  }
-  .border .btn-3:hover{
-    outline:1px solid rgba(255,255,255,1);
-    outline-offset:2px;
-  }
-  
-  .border .btn-4{
-    outline:1px solid rgba(255,255,255,.8);
-    outline-offset:0;
-  }
-  .border .btn-4:hover{
-    outline:1px solid rgba(255,255,255,0);
-    outline-offset:5px;
-  }
-  
-  
-  .border_plus .btn-4:before,
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:before,
-  .border_plus .btn-4 span:after{
-    content:'';
-    display:block;
-    width: 0;
-    height: 0;
-    background:#000000;
-    position: absolute;
-    margin:auto;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:before,
-  .border_plus .btn-4 span:before{
-    height: 1px;
-  }
-  .border_plus .btn-4:after,
-  .border_plus .btn-4 span:after{
-    width: 1px;
-  }
-  .border_plus .btn-4 span:before{
-    top: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:before{
-    bottom: 0;
-    right: 0;
-  }
-  .border_plus .btn-4 span:after{
-    bottom: 0;
-    left: 0;
-  }
-  .border_plus .btn-4:after{
-    top: 0;
-    right: 0;
-  }
-  .border_plus .btn-4:hover{
-    background:#000;
-    color:#fff;
-    transition:.4s .4s;
-  }
-  .border_plus .btn-4:hover span:before,
-  .border_plus .btn-4:hover:before{
-    width: 100%;
-    transition:.4s 0s;
-  }
-  .border_plus .btn-4:hover:after,
-  .border_plus .btn-4:hover span:after{
-    height: 100%;
-    transition:.4s 0s;
-  }
-  
-  
-  
-  
-  
+}
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align:center;
+  padding:8px 1%;
+}
+
+h3{
+  display:block;
+  width:100%;
+  margin:10px 10px 20px;
+}
+h3.txt-white{
+  color:#fff;
+}
+.btn{
+  flex: 1 auto;
+  margin:5px;
+  padding:10px 25px;
+  text-align:center;
+  background:#eee;
+  transition: all 0.5s ease-out;
+  cursor:crosshair;
+}
+
+/* ---- gradient btns ---- */
+/* inspired by https://codepen.io/pirrera/pen/bqVeGx
+   gradient from https://webgradients.com */
+.gradient{ /* block background */
+  background-color:#fff;
+}
+.gradient .btn{ /* general */
+  color:#fff;
+  border-radius:4px;
+  background-size: 200% auto;
+  box-shadow:0px 0px 15px 0 rgba(0,0,0,.1);
+}
+.gradient .btn:hover{
+  background-position: right center;
+}
+
+.gradient .btn-1{
+  background-image: linear-gradient(to right, #5ee7df 0%, #b470ca 51%, #5ee7df 100%);
+}
+.gradient .btn-2{
+  background-image: linear-gradient(135deg, #ee9ca7 0%, #fbed96 51%, #ee9ca7 100%);
+}
+.gradient .btn-3{
+  background-image: linear-gradient(to right, #ffc4c4 0%, #a3b6ff 51%, #ffc4c4 100%);
+}
+.gradient .btn-4{
+  background-image: linear-gradient(to right, #EAECC6 0%, #2BC0E4 51%, #EAECC6 100%);
+}
+.gradient .btn-5{
+  background-image: linear-gradient(45deg, #ace0f9 0%, #fff1eb 51%, #ace0f9 100%);
+}
+
+
+/* ---- luxury btns ---- */
+.luxury{ /* block background */
+  background-color:#031d2e;
+}
+.luxury .btn{ /* general */
+  background:transparent;
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  color:#fff;
+}
+
+.luxury .btn-1{ /* inspired by https://codepen.io/dbox/pen/bdzeEw */
+  color: rgba(255,255,255,0.8);
+  border: 1px solid rgba(255,255,255,0.3);
+  background-image: linear-gradient(270deg, rgba(255,255,255,.9), rgba(255,255,255,.9), rgba(255,255,255,0), rgba(255,255,255,0));
+}
+.luxury .btn-1:hover{
+  border-color:transparent;
+  color:#161616;
+  background-position: 99% 50%;
+}
+
+.luxury .btn-2{
+  border:1px solid rgba(255,255,255,0);
+  background-image: linear-gradient(45deg, transparent 0%, transparent 75%, rgba(255,255,255,0.8) 75%, transparent 100%);
+}
+.luxury .btn-2:hover{
+  border:1px solid rgba(255,255,255,0.5);
+  background-position:150% top;
+}
+
+.luxury .btn-3{
+  background-image: linear-gradient(45deg, transparent 0%, rgba(255,255,255,0.5) 51%, transparent 100%);  
+}
+.luxury .btn-3:hover{
+  background-position:right top;
+}
+
+.luxury .btn-4{
+  border:1px solid rgba(255,255,255,.5);
+  box-shadow:0 0 20px 0 rgba(255,255,255,.5) inset;
+}
+.luxury .btn-4:hover{
+  box-shadow:0 0 50px 2px rgba(255,255,255,.5) inset;
+}
