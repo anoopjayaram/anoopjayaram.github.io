@@ -124,11 +124,13 @@ body {
 
 ._12 {
     font-size: 1.2em;
+    
 }
 ._14 {
     padding-top: 32%;
     font-size: 1.4em;
-    color: wheat;
+    color: rgb(203, 245, 16);
+    
 }
 ul {
     padding:0;
@@ -136,8 +138,9 @@ ul {
 }
 .footer-social-icons {
 
- 
+    padding-bottom: 5%;
     width: 350px; 
+    position: relative;
   
     }
 .social-icon {
