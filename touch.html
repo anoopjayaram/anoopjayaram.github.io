@@ -18,9 +18,9 @@
          <div class="column">  <!-- action="https://script.google.com/macros/s/AKfycbxQ6bgHPV9nZUyfpmLyfOEz0qyWetT9wkl039GWDZL9rtIyL7S2/exec" -->
             <form id="submit-form" action="">
               <label for="fname">First Name</label>
-              <input type="text" id="fname" name="name" placeholder="Your name..">
+              <input : required  type="text" id="fname" name="name" placeholder="Your name..">
               <label for="lname">Email</label>
-              <input type="text" id="lname" name="email" placeholder="Your last name..">
+              <input : required type="text" id="lname" name="email" placeholder="Your last name..">
               <label for="country">Country</label>
               <select id="country" class="dropdown" name="Country">
                 <option class="dropdown" value="India">India</option>
@@ -29,8 +29,8 @@
                 <option class="dropdown" value="usa">USA</option>
               </select>
               <label for="subject">Subject</label>
-              <textarea id="subject" name="message" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
+              <textarea : required id="subject" name="message" placeholder="Write something.." style="height:170px"></textarea>
+              <input  type="submit" value="Submit">
             </form>
           </div>
           <div class="column">
