@@ -6,7 +6,7 @@ body {
   
     margin:0;
     padding: 50px;
-    background:url(/img/showcaseFormat.jpg) no-repeat;
+    background:url(/img/profile_cover_2.jpg) no-repeat;
     background-position: center center;
     background-attachment:   fixed;
     background-size: cover;
@@ -22,8 +22,8 @@ body {
 }
 #intro1{
   margin-left: 20%;
-  color:rgb(201, 28, 28);
-  font-size: 280%;
+  color:rgb(94, 54, 54);
+  font-size: 180%;
   font-family: cursive;
 }
 /*Buttons*/
@@ -127,9 +127,9 @@ body {
     
 }
 ._14 {
-    padding-top: 32%;
+    padding-top: 50%;
     font-size: 1.4em;
-    color: rgb(238, 81, 8);
+    color: rgb(92, 116, 54);
     font-weight: bold;
     
 }
@@ -327,7 +327,7 @@ h3.txt-white{
 
 /* ---- luxury btns ---- */
 .luxury{ /* block background */
-  background-color:#031d2e;
+  background-color:#151b27;
 }
 .luxury .btn{ /* general */
   background:transparent;
